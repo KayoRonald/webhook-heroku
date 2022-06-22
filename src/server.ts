@@ -6,7 +6,7 @@ import config from "./config/";
 app.listen(config.app.port, () => {
   console.log(
     chalk.green(
-      `Server Running port: ${config.app.port} ${process.env.NODE_ENV}`
+      `Server Running port: ${config.app.port}`
     )
   );
 });
